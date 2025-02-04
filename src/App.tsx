@@ -11,7 +11,7 @@ import { Github } from 'lucide-react';
 
 export default function App() {
   const [agent, setAgent] = useState<AIAgent>({
-    name: 'AI Assistant by Aryan Acharya',
+    name: 'AI Assistant by Harsh Mriduhash',
     status: 'idle',
     tasks: [],
     capabilities: ['Email', 'Calendar', 'File Management'],
@@ -83,16 +83,16 @@ export default function App() {
         <div className="flex justify-between items-center">
           <h1 className="text-3xl font-bold text-gray-900">
             AI Agent System
-            <span className="text-sm text-gray-500 ml-2">by Aryan Acharya</span>
+            <span className="text-sm text-gray-500 ml-2">by Harsh Mriduhash</span>
           </h1>
           <a
-            href="https://github.com/aryan1112003"
+            href="https://github.com/harshmriduhash"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
           >
             <Github size={24} />
-            <span className="text-sm font-medium">@aryan1112003</span>
+            <span className="text-sm font-medium">Harsh Mriduhash</span>
           </a>
         </div>
         

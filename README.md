@@ -42,7 +42,7 @@ A sophisticated AI assistant system that processes natural language commands for
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/aryan1112003/ai-agent-system.git
+   git clone https://github.com/harshmriduhash/ai-agent-system.git
    ```
 
 2. **Install dependencies**
@@ -116,16 +116,16 @@ src/
 
 ## 👨‍💻 Author
 
-**Aryan Acharya**
-- GitHub: [@aryan1112003](https://github.com/aryan1112003)
+**Harsh Mriduhash**
+- GitHub: [@harsh1112003](https://github.com/harshmriduhash)
 ![image](https://github.com/user-attachments/assets/69705b1b-bf89-438e-a15a-f756dce80cc0)
 
 ## 📄 License
 
-© 2024 Aryan Acharya. All rights reserved.
+© 2024 Harsh Mriduhash. All rights reserved.
 
 ---
 
 <div align="center">
-  <strong>Built with ❤️ by Aryan Acharya</strong>
+  <strong>Built with ❤️ by Harsh Mriduhash</strong>
 </div>
