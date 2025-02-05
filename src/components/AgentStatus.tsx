@@ -1,6 +1,6 @@
-import React from 'react';
-import { AIAgent } from '../types';
-import { Bot } from 'lucide-react';
+import React from "react";
+import { AIAgent } from "../types";
+import { Bot } from "lucide-react";
 
 interface AgentStatusProps {
   agent: AIAgent;
