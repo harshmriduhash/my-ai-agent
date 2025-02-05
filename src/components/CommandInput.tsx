@@ -1,19 +1,22 @@
-import React, { useState } from 'react';
-import { Send } from 'lucide-react';
+import React, { useState } from "react";
+import { Send } from "lucide-react";
 
 interface CommandInputProps {
   onSubmit: (command: string) => void;
   disabled?: boolean;
 }
 
-export function CommandInput({ onSubmit, disabled = false }: CommandInputProps) {
-  const [command, setCommand] = useState('');
+export function CommandInput({
+  onSubmit,
+  disabled = false,
+}: CommandInputProps) {
+  const [command, setCommand] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (command.trim()) {
       onSubmit(command.trim());
-      setCommand('');
+      setCommand("");
     }
   };
 
