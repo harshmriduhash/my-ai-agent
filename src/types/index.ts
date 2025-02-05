@@ -1,7 +1,7 @@
 export interface Task {
   id: string;
-  type: 'email' | 'calendar' | 'file' | 'ui' | 'pending';
-  status: 'pending' | 'running' | 'completed' | 'failed';
+  type: "email" | "calendar" | "file" | "ui" | "pending";
+  status: "pending" | "running" | "completed" | "failed";
   description: string;
   created: Date;
   completed?: Date;
@@ -11,7 +11,7 @@ export interface Task {
 
 export interface AIAgent {
   name: string;
-  status: 'idle' | 'processing';
+  status: "idle" | "processing";
   tasks: Task[];
   capabilities: string[];
 }
@@ -20,7 +20,7 @@ export interface CommandResult {
   success: boolean;
   message: string;
   data?: {
-    type: 'email' | 'calendar' | 'file' | 'ui';
+    type: "email" | "calendar" | "file" | "ui";
     [key: string]: any;
   };
 }
