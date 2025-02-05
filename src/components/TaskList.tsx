@@ -1,19 +1,19 @@
-import React from 'react';
-import { Task } from '../types';
-import { CheckCircle, XCircle, Clock, Play } from 'lucide-react';
+import React from "react";
+import { Task } from "../types";
+import { CheckCircle, XCircle, Clock, Play } from "lucide-react";
 
 interface TaskListProps {
   tasks: Task[];
 }
 
 export function TaskList({ tasks }: TaskListProps) {
-  const getStatusIcon = (status: Task['status']) => {
+  const getStatusIcon = (status: Task["status"]) => {
     switch (status) {
-      case 'completed':
+      case "completed":
         return <CheckCircle className="w-5 h-5 text-green-500" />;
-      case 'failed':
+      case "failed":
         return <XCircle className="w-5 h-5 text-red-500" />;
-      case 'running':
+      case "running":
         return <Play className="w-5 h-5 text-blue-500" />;
       default:
         return <Clock className="w-5 h-5 text-gray-500" />;
