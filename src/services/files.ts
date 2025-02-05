@@ -1,4 +1,4 @@
-import { CommandResult } from '../types';
+import { CommandResult } from "../types";
 
 export async function openFile(filename: string): Promise<CommandResult> {
   // Simulate file operations
@@ -6,8 +6,8 @@ export async function openFile(filename: string): Promise<CommandResult> {
     success: true,
     message: `File "${filename}" would be opened`,
     data: {
-      type: 'file',
-      filename
-    }
+      type: "file",
+      filename,
+    },
   };
 }
