@@ -42,7 +42,7 @@ A sophisticated AI assistant system that processes natural language commands for
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/harshmriduhash/ai-agent-system.git
+   git clone https://github.com/harshmriduhash/ai-agent.git
    ```
 
 2. **Install dependencies**
